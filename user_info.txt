@@ -1,0 +1,7 @@
+this is my first text using python
+this is second text
+this is third text
+sham
+sujal
+shubham
+ram
