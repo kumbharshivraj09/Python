@@ -1,4 +1,4 @@
-# count even and odd numbers in a list : 
+'''# count even and odd numbers in a list : 
 
 list=[1,45,58,66,5,2,8,6,66,23,11,10,102,12,20,3,30,0]
 
@@ -33,4 +33,22 @@ if num>1:
       print("prime")
       break
 else:
-  print("not prime!")
+  print("not prime!")'''
+
+
+ # factorial number : 
+
+num=int(input("enter a number : ")) 
+
+factorial=1
+
+if num<0:
+    print("sorry , factorial is not negative!!!")
+elif num==0:
+    print("factorial of 0 is : 1")
+
+else:
+    for i in range(1,num+1):
+        factorial=factorial*i
+print(f'factorial of {num} is : {factorial}')                
+
