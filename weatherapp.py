@@ -17,4 +17,4 @@ if response.status_code==200:
     # print(weather_desciption)
 
     temp=weather_data['main']['temp'] - 273.15
-    print(f'weather in {city_name} : {round(temp,2)}*c with {weather_desciption}')
+    print(f'weather in {city_name} : {round(temp,2)}*C with {weather_desciption}')
