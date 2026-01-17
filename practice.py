@@ -33,7 +33,7 @@ if num>1:
       print("prime")
       break
 else:
-  print("not prime!")'''
+  print("not prime!")
 
 
  # factorial number : 
@@ -50,5 +50,39 @@ elif num==0:
 else:
     for i in range(1,num+1):
         factorial=factorial*i
-print(f'factorial of {num} is : {factorial}')                
+print(f'factorial of {num} is : {factorial}')  
+
+#sum of all number : 
+
+def sum(*numbers):
+    total=0
+    for i in numbers:
+      total+=i
+      return total
+    
+print(sum(2,283,9404,48,9))  '''
+
+
+'''def string_test(s):
+    d={"UPPER":0,"lower":0}
+
+    for i in s:
+        if i.isupper():
+            d["UPPER"]+=1
+
+        elif i.islower():
+           d["lower"]+=1
+        else:
+            pass
+
+    print("original string is : ",s)
+    print("number of upper case character is : ",d["UPPER"])            
+    print("number of lower case character is : ",d["lower"])   
+
+
+
+string_test("ROHIT shinde KOLHAPUR maharashtra")   '''
+
+
+
 

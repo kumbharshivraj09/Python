@@ -45,3 +45,8 @@ print(soup.h1.string)
 print(soup.find_all('h2'))
 print(soup.find_all('p'))
 print(soup.body.prettify())
+
+
+# FINDING ELEMENT IN WEB PAGE : 
+
+
