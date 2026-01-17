@@ -84,5 +84,7 @@ print(sum(2,283,9404,48,9))  '''
 string_test("ROHIT shinde KOLHAPUR maharashtra")   '''
 
 
-
+a = 5
+b = 2
+print(a // b)
 

@@ -29,5 +29,25 @@ df=pd.read_csv('myFile.csv')
 
 # describe method : 
 df=pd.read_csv('myFile.csv')
-print(df.describe())
+# print(df)
+
+print(df["firstname"])#select single coulmns
+
+print(df[['firstname','lastname','city']])#select multiplay columns
+
+#applay single condition : 
+#filter rows in single condition : 
+
+# print(df[df["sallary"]>500])
+# print(df[df['id']==108])
+
+#filter rows using multiplay condition : 
+
+# print(df[(df["sallary"]>500) & (df['sallary']<900)])
+print("print and condition : ")
+print(df[(df["sallary"]>500) & (df['id']>105)])
+
+print("or condition : ")
+print(df[(df["sallary"]>500) | (df['id']>105)])
+
 
