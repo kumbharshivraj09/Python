@@ -17,5 +17,5 @@ print(np.hstack((arr1,arr2)))
 
 print(np.split(arr1,2))
 print(np.split(arr1,3))
-print(np.split(arr1,4))
+
 
