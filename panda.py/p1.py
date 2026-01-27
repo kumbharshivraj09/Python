@@ -27,3 +27,10 @@ print(df['sallary'].min())
 
 # average sallary 
 print(df['sallary'].mean())
+
+firstname=df[df['firstname']=='Gale']
+print(firstname)
+
+# find the email following id 
+
+print(df[df['id']==104]['email'])
