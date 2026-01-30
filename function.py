@@ -63,4 +63,31 @@ print("divison of two number is : ",res)
 # greatting('ram')    
 
 
+# write a program to find common letters bettwwen two strings
+def common():
+    str1=input("enter a first letter : ")
+    str2=input("enter a second letter : ")
+    s1=set(str1)
+    s2=set(str2)
+    print(s1)
+    print(s2)
+    common_letter=s1 & s2
+    print('Common Letter is : ',common_letter)
+
+common()  
+
+# write a program  the frequency of words appearing in a string
+
+def frequency():
+    str=input("enter a string : ")
+    list=str.split()
+    d={}
+    for i in list:
+      if i not in d.keys():
+         d[i]=0
+      d[i]=d[i]+1
+    print(d)
+frequency()    
+
+
 

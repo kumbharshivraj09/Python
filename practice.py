@@ -84,7 +84,15 @@ print(sum(2,283,9404,48,9))  '''
 string_test("ROHIT shinde KOLHAPUR maharashtra")   '''
 
 
-a = 5
-b = 2
-print(a // b)
+# fibonacciseries
 
+n=int(input("enter a number : "))
+a=0
+b=1
+z=0
+while(z<=n):
+    print(z)
+    a=b
+    b=a+b
+    z=b+z
+    t(zprin)
