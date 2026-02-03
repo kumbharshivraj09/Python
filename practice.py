@@ -84,15 +84,56 @@ print(sum(2,283,9404,48,9))  '''
 string_test("ROHIT shinde KOLHAPUR maharashtra")   '''
 
 
-# fibonacciseries
+# write a program to find common letters bettwwen two strings
+def common():
+    str1=input("enter a first letter : ")
+    str2=input("enter a second letter : ")
+    s1=set(str1)
+    s2=set(str2)
+    print(s1)
+    print(s2)
+    common_letter=s1 & s2
+    print('Common Letter is : ',common_letter)
 
-n=int(input("enter a number : "))
-a=0
-b=1
-z=0
-while(z<=n):
-    print(z)
-    a=b
-    b=a+b
-    z=b+z
-    t(zprin)
+common()  
+
+# write a program  the frequency of words appearing in a string
+
+def frequency():
+    str=input("enter a string : ")
+    list=str.split()
+    d={}
+    for i in list:
+      if i not in d.keys():
+         d[i]=0
+      d[i]=d[i]+1
+    print(d)
+frequency()    
+
+# write a program to convert two list into dictionary
+def list_to_dic():
+ keys=[1,2,3]
+ values=['one','two','three']
+ result=dict(zip(keys,values))
+ print(result)
+
+
+def dic_to_touple():
+   x={1:'one',2:'two',3:'three'} 
+   for i in x.items():
+      print(i)
+
+list_to_dic()
+dic_to_touple()
+
+# find the missing number in array
+def get_missing_no(a):
+   n=a[-1]
+   total=n*(n+1)/2
+   sum1=0
+   sum1=sum(a)
+   result=total-sum1
+   print("Missing Number is :",int(result))
+   
+a=[1,2,3,4,5,6,8,9,10]   
+get_missing_no([1,2,3,4,5,6,8,9,10])
