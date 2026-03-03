@@ -98,7 +98,4 @@ plt.plot(Google['Date'],Google['Stock_Impact_%'],color='green')
 plt.show()
 
 
-
-
-
 #event when maximum stock impact was observed

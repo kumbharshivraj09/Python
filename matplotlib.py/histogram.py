@@ -8,3 +8,4 @@ plt.xlabel("mark range")
 plt.ylabel("number of student")
 plt.title('marks distribution of student')
 plt.show()
+
