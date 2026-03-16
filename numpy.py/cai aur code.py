@@ -138,6 +138,3 @@ print(np.delete(arr,2))
 # add
 print(np.append(arr,[11,12]))
 
-
-
-
